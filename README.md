@@ -56,9 +56,11 @@ Get grounded answers from Groq LLM.
 
 ## 🔹 Example Query
 
+```code
 query = "What are the key points in chapter 2?"
 results = rag_retriever.retrieve(query, top_k=5, score_threshold=0.3)
 
 for doc in results:
     print(f"Rank {doc['rank']} | Score: {doc['similarity_score']:.4f}")
     print(f"Content: {doc['content'][:200]}...\n")
+```
