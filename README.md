@@ -64,3 +64,23 @@ for doc in results:
     print(f"Rank {doc['rank']} | Score: {doc['similarity_score']:.4f}")
     print(f"Content: {doc['content'][:200]}...\n")
 ```
+
+## 🔹 Notes
+
+--Replace GROQ_API_KEY in your .env file with your actual key.
+
+--Adjust chunk_size and chunk_overlap for optimal retrieval.
+
+--Use llama-3.1-8b-instant for speed, or llama-3.3-70b-versatile for higher reasoning quality.
+
+## 🔹 Pipeline Diagram (Mermaid)
+
+```mermaid
+flowchart TD
+    A[PDF Documents] --> B[Data Ingestion: PyPDFLoader]
+    B --> C[Chunking: RecursiveCharacterTextSplitter]
+    C --> D[Embeddings: SentenceTransformer]
+    D --> E[Vector Store: ChromaDB]
+    E --> F[Retriever: Query Similarity Search]
+    F --> G[Groq LLM: Generation]
+```
