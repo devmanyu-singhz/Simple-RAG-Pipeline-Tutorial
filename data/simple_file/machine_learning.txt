@@ -1,0 +1,13 @@
+Machine Learning (ML) is a branch of artificial intelligence that 
+    focuses on building systems capable of learning and improving from data without explicit programming. Instead of 
+    following fixed rules, ML algorithms identify patterns, make predictions, and adapt to new information. It combines 
+    statistics, mathematics, and computer science to create models that can solve complex problems. ML is broadly 
+    categorized into supervised learning, where models learn from labeled data; unsupervised learning, which uncovers 
+    hidden structures in unlabeled data; and reinforcement learning, where agents learn by interacting with environments 
+    and receiving feedback. Applications of ML are everywhere—recommendation systems on streaming platforms, fraud 
+    detection in banking, medical diagnosis, autonomous vehicles, and natural language processing tools like chatbots. 
+    Popular algorithms include decision trees, support vector machines, k-nearest neighbors, and neural networks. With 
+    the rise of big data and powerful computing resources, ML has become essential for extracting insights and driving 
+    innovation across industries. Python, with libraries like scikit-learn, TensorFlow, and PyTorch, has become the most 
+    widely used language for ML development. Ultimately, machine learning empowers computers to evolve with experience, 
+    making them smarter and more capable of solving real-world challenges.
