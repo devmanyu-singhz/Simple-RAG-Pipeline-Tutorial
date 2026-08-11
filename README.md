@@ -84,3 +84,5 @@ flowchart TD
     E --> F[Retriever: Query Similarity Search]
     F --> G[Groq LLM: Generation]
 ```
+
+### YOU CAN ALWAYS CHECK THE ENTIRE PROJECT FOR DEEP UNDERSTANDING
